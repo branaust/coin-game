@@ -1,0 +1,31 @@
+img {
+  width: 100px;
+  position: absolute;
+  top: 100px;
+  left: 100px;
+}
+
+/* h1 {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+} */
+
+.total {
+  display: grid;
+  justify-content: center;
+}
+
+.score {
+  display: grid;
+  grid-template-columns: max-content min-content 1fr;
+  justify-items: center;
+}
+
+#score {
+  color: red;
+}
+
+.score1 {
+  color: green;
+}
